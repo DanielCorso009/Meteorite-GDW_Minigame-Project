@@ -183,6 +183,22 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1256529301}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 2f7f0615f5d71f54496fd30426c0c7ab, type: 3}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7203265586749472155, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
       propertyPath: m_Name
       value: BrittlePlat
@@ -280,8 +296,8 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 0.8828125}
-    newSize: {x: 1, y: 1}
+    oldSize: {x: 0.96, y: 0.96}
+    newSize: {x: 0.96, y: 0.96}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -384,12 +400,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 2747690628134850419, guid: a9716c16a44a94eed9b5c90fbf4d9bdd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6fba8891549a8b144b7316bc819c5ef9, type: 3}
   m_Color: {r: 0, g: 1, b: 0.76858926, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.96, y: 0.96}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -451,9 +467,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c3738e5c1f6dc914ca2b8d9542cb47fc, type: 3}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Name
       value: SturdyPlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -529,6 +577,22 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1256529301}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 2f7f0615f5d71f54496fd30426c0c7ab, type: 3}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7203265586749472155, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
       propertyPath: m_Name
       value: BrittlePlat
@@ -601,6 +665,22 @@ PrefabInstance:
     - target: {fileID: 5798850326734795210, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
       propertyPath: m_Name
       value: BoosterPlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: bd41b17978abb994abbe37c0151e7acb, type: 3}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -707,9 +787,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c3738e5c1f6dc914ca2b8d9542cb47fc, type: 3}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Name
       value: SturdyPlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -792,9 +904,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c3738e5c1f6dc914ca2b8d9542cb47fc, type: 3}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Name
       value: SturdyPlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -870,6 +1014,22 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1256529301}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 2f7f0615f5d71f54496fd30426c0c7ab, type: 3}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7203265586749472155, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
       propertyPath: m_Name
       value: BrittlePlat
@@ -935,9 +1095,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c3738e5c1f6dc914ca2b8d9542cb47fc, type: 3}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Name
       value: SturdyPlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1010,9 +1202,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c3738e5c1f6dc914ca2b8d9542cb47fc, type: 3}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Name
       value: SturdyPlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1084,9 +1308,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c3738e5c1f6dc914ca2b8d9542cb47fc, type: 3}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Name
       value: SturdyPlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1145,9 +1401,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c3738e5c1f6dc914ca2b8d9542cb47fc, type: 3}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Name
       value: SturdyPlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1219,6 +1507,22 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1256529301}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 2f7f0615f5d71f54496fd30426c0c7ab, type: 3}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7203265586749472155, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
       propertyPath: m_Name
       value: BrittlePlat
@@ -1365,6 +1669,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: BoosterPlat
       objectReference: {fileID: 0}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: bd41b17978abb994abbe37c0151e7acb, type: 3}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1430,6 +1750,22 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1256529301}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 2f7f0615f5d71f54496fd30426c0c7ab, type: 3}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7203265586749472155, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
       propertyPath: m_Name
       value: BrittlePlat
@@ -1500,9 +1836,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c3738e5c1f6dc914ca2b8d9542cb47fc, type: 3}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Name
       value: SturdyPlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1571,6 +1939,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c3738e5c1f6dc914ca2b8d9542cb47fc, type: 3}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Name
       value: SturdyPlat
@@ -1578,6 +1962,22 @@ PrefabInstance:
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1734,9 +2134,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c3738e5c1f6dc914ca2b8d9542cb47fc, type: 3}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Name
       value: SturdyPlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1809,6 +2241,22 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1256529301}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 2f7f0615f5d71f54496fd30426c0c7ab, type: 3}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7203265586749472155, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
       propertyPath: m_Name
       value: BrittlePlat
@@ -1878,9 +2326,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c3738e5c1f6dc914ca2b8d9542cb47fc, type: 3}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Name
       value: SturdyPlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1943,6 +2423,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c3738e5c1f6dc914ca2b8d9542cb47fc, type: 3}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Name
       value: SturdyPlat
@@ -1950,6 +2446,22 @@ PrefabInstance:
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2017,9 +2529,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c3738e5c1f6dc914ca2b8d9542cb47fc, type: 3}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Name
       value: SturdyPlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2212,8 +2756,8 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 0.8828125}
-    newSize: {x: 1, y: 1}
+    oldSize: {x: 0.96, y: 0.96}
+    newSize: {x: 0.96, y: 0.96}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -2316,12 +2860,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 2747690628134850419, guid: a9716c16a44a94eed9b5c90fbf4d9bdd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6fba8891549a8b144b7316bc819c5ef9, type: 3}
   m_Color: {r: 0, g: 1, b: 0.76858926, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.96, y: 0.96}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -2379,9 +2923,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c3738e5c1f6dc914ca2b8d9542cb47fc, type: 3}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Name
       value: SturdyPlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2444,9 +3020,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c3738e5c1f6dc914ca2b8d9542cb47fc, type: 3}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Name
       value: SturdyPlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2624,6 +3232,22 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1256529301}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 2f7f0615f5d71f54496fd30426c0c7ab, type: 3}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7203265586749472155, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
       propertyPath: m_Name
       value: BrittlePlat
@@ -2693,9 +3317,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c3738e5c1f6dc914ca2b8d9542cb47fc, type: 3}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Name
       value: SturdyPlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2758,9 +3414,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c3738e5c1f6dc914ca2b8d9542cb47fc, type: 3}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Name
       value: SturdyPlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2827,6 +3515,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c3738e5c1f6dc914ca2b8d9542cb47fc, type: 3}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Name
       value: SturdyPlat
@@ -2834,6 +3538,22 @@ PrefabInstance:
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2928,8 +3648,8 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 0.8828125}
-    newSize: {x: 1, y: 1}
+    oldSize: {x: 0.96, y: 0.96}
+    newSize: {x: 0.96, y: 0.96}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -3032,12 +3752,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 2747690628134850419, guid: a9716c16a44a94eed9b5c90fbf4d9bdd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6fba8891549a8b144b7316bc819c5ef9, type: 3}
   m_Color: {r: 0, g: 1, b: 0.76858926, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.96, y: 0.96}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -3099,9 +3819,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c3738e5c1f6dc914ca2b8d9542cb47fc, type: 3}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Name
       value: SturdyPlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3164,9 +3916,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c3738e5c1f6dc914ca2b8d9542cb47fc, type: 3}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Name
       value: SturdyPlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3237,6 +4021,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: BoosterPlat
       objectReference: {fileID: 0}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: bd41b17978abb994abbe37c0151e7acb, type: 3}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3306,6 +4106,22 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1256529301}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 2f7f0615f5d71f54496fd30426c0c7ab, type: 3}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7203265586749472155, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
       propertyPath: m_Name
       value: BrittlePlat
@@ -3382,9 +4198,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c3738e5c1f6dc914ca2b8d9542cb47fc, type: 3}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Name
       value: SturdyPlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3454,6 +4302,22 @@ PrefabInstance:
     - target: {fileID: 5798850326734795210, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
       propertyPath: m_Name
       value: BoosterPlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: bd41b17978abb994abbe37c0151e7acb, type: 3}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3565,12 +4429,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 2747690628134850419, guid: b670ab75dde984907b8570040daa08c5, type: 3}
-  m_Color: {r: 0.27727836, g: 0.6320754, b: 0.29515928, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 6fba8891549a8b144b7316bc819c5ef9, type: 3}
+  m_Color: {r: 0.25698647, g: 0.7264151, b: 0.2778499, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.96, y: 0.96}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -3627,8 +4491,8 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 0.8828125}
-    newSize: {x: 1, y: 1}
+    oldSize: {x: 0.96, y: 0.96}
+    newSize: {x: 0.96, y: 0.96}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -3706,6 +4570,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: BoosterPlat
       objectReference: {fileID: 0}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: bd41b17978abb994abbe37c0151e7acb, type: 3}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3771,9 +4651,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c3738e5c1f6dc914ca2b8d9542cb47fc, type: 3}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Name
       value: SturdyPlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3841,9 +4753,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c3738e5c1f6dc914ca2b8d9542cb47fc, type: 3}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Name
       value: SturdyPlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3970,6 +4914,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: BoosterPlat
       objectReference: {fileID: 0}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: bd41b17978abb994abbe37c0151e7acb, type: 3}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4031,9 +4991,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c3738e5c1f6dc914ca2b8d9542cb47fc, type: 3}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Name
       value: SturdyPlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4097,9 +5089,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c3738e5c1f6dc914ca2b8d9542cb47fc, type: 3}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Name
       value: SturdyPlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4167,6 +5191,22 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1256529301}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 2f7f0615f5d71f54496fd30426c0c7ab, type: 3}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7203265586749472155, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
       propertyPath: m_Name
       value: BrittlePlat
@@ -4367,12 +5407,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 2747690628134850419, guid: a9716c16a44a94eed9b5c90fbf4d9bdd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6fba8891549a8b144b7316bc819c5ef9, type: 3}
   m_Color: {r: 0, g: 1, b: 0.76858926, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.96, y: 0.96}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -4414,8 +5454,8 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 0.8828125}
-    newSize: {x: 1, y: 1}
+    oldSize: {x: 0.96, y: 0.96}
+    newSize: {x: 0.96, y: 0.96}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -4527,6 +5567,22 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1256529301}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 2f7f0615f5d71f54496fd30426c0c7ab, type: 3}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7203265586749472155, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
       propertyPath: m_Name
       value: BrittlePlat
@@ -4596,6 +5652,22 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1256529301}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 2f7f0615f5d71f54496fd30426c0c7ab, type: 3}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7203265586749472155, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
       propertyPath: m_Name
       value: BrittlePlat
@@ -4730,6 +5802,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c3738e5c1f6dc914ca2b8d9542cb47fc, type: 3}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Name
       value: SturdyPlat
@@ -4737,6 +5825,22 @@ PrefabInstance:
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4804,9 +5908,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c3738e5c1f6dc914ca2b8d9542cb47fc, type: 3}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Name
       value: SturdyPlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4873,6 +6009,22 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1256529301}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 2f7f0615f5d71f54496fd30426c0c7ab, type: 3}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7203265586749472155, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
       propertyPath: m_Name
       value: BrittlePlat
@@ -4948,9 +6100,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c3738e5c1f6dc914ca2b8d9542cb47fc, type: 3}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Name
       value: SturdyPlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5022,6 +6206,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: BoosterPlat
       objectReference: {fileID: 0}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: bd41b17978abb994abbe37c0151e7acb, type: 3}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5087,6 +6287,22 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1256529301}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 2f7f0615f5d71f54496fd30426c0c7ab, type: 3}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7203265586749472155, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
       propertyPath: m_Name
       value: BrittlePlat
@@ -5155,6 +6371,22 @@ PrefabInstance:
     - target: {fileID: 5798850326734795210, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
       propertyPath: m_Name
       value: BoosterPlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: bd41b17978abb994abbe37c0151e7acb, type: 3}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5232,9 +6464,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c3738e5c1f6dc914ca2b8d9542cb47fc, type: 3}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Name
       value: SturdyPlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5297,9 +6561,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c3738e5c1f6dc914ca2b8d9542cb47fc, type: 3}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Name
       value: SturdyPlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5436,9 +6732,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c3738e5c1f6dc914ca2b8d9542cb47fc, type: 3}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Name
       value: SturdyPlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5502,9 +6830,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c3738e5c1f6dc914ca2b8d9542cb47fc, type: 3}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Name
       value: SturdyPlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5574,6 +6934,22 @@ PrefabInstance:
     - target: {fileID: 5798850326734795210, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
       propertyPath: m_Name
       value: BoosterPlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: bd41b17978abb994abbe37c0151e7acb, type: 3}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5673,8 +7049,8 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 0.8828125}
-    newSize: {x: 1, y: 1}
+    oldSize: {x: 0.96, y: 0.96}
+    newSize: {x: 0.96, y: 0.96}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -5777,12 +7153,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 2747690628134850419, guid: a9716c16a44a94eed9b5c90fbf4d9bdd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6fba8891549a8b144b7316bc819c5ef9, type: 3}
   m_Color: {r: 0, g: 1, b: 0.76858926, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.96, y: 0.96}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -5862,6 +7238,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: BoosterPlat
       objectReference: {fileID: 0}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: bd41b17978abb994abbe37c0151e7acb, type: 3}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5923,9 +7315,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c3738e5c1f6dc914ca2b8d9542cb47fc, type: 3}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Name
       value: SturdyPlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6001,6 +7425,22 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1256529301}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 2f7f0615f5d71f54496fd30426c0c7ab, type: 3}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7203265586749472155, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
       propertyPath: m_Name
       value: BrittlePlat
@@ -6076,6 +7516,22 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1256529301}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 2f7f0615f5d71f54496fd30426c0c7ab, type: 3}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7203265586749472155, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
       propertyPath: m_Name
       value: BrittlePlat
@@ -6145,9 +7601,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c3738e5c1f6dc914ca2b8d9542cb47fc, type: 3}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Name
       value: SturdyPlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6212,9 +7700,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c3738e5c1f6dc914ca2b8d9542cb47fc, type: 3}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Name
       value: SturdyPlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6305,6 +7825,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: BoosterPlat
       objectReference: {fileID: 0}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: bd41b17978abb994abbe37c0151e7acb, type: 3}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6366,9 +7902,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c3738e5c1f6dc914ca2b8d9542cb47fc, type: 3}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Name
       value: SturdyPlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6513,12 +8081,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f75c71a73028c9e4ab6ad4b954ea2eff, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.96, y: 0.96}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -6623,6 +8191,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: BoosterPlat
       objectReference: {fileID: 0}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: bd41b17978abb994abbe37c0151e7acb, type: 3}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6684,9 +8268,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c3738e5c1f6dc914ca2b8d9542cb47fc, type: 3}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Name
       value: SturdyPlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6757,6 +8373,22 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1256529301}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 2f7f0615f5d71f54496fd30426c0c7ab, type: 3}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7203265586749472155, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
       propertyPath: m_Name
       value: BrittlePlat
@@ -6826,6 +8458,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: BoosterPlat
       objectReference: {fileID: 0}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: bd41b17978abb994abbe37c0151e7acb, type: 3}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6891,9 +8539,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c3738e5c1f6dc914ca2b8d9542cb47fc, type: 3}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Name
       value: SturdyPlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6969,6 +8649,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: BoosterPlat
       objectReference: {fileID: 0}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: bd41b17978abb994abbe37c0151e7acb, type: 3}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7030,9 +8726,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c3738e5c1f6dc914ca2b8d9542cb47fc, type: 3}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Name
       value: SturdyPlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7105,9 +8833,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c3738e5c1f6dc914ca2b8d9542cb47fc, type: 3}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Name
       value: SturdyPlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7185,9 +8945,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c3738e5c1f6dc914ca2b8d9542cb47fc, type: 3}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Name
       value: SturdyPlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7255,9 +9047,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c3738e5c1f6dc914ca2b8d9542cb47fc, type: 3}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Name
       value: SturdyPlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7334,9 +9158,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c3738e5c1f6dc914ca2b8d9542cb47fc, type: 3}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Name
       value: SturdyPlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7418,6 +9274,22 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1256529301}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 2f7f0615f5d71f54496fd30426c0c7ab, type: 3}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7203265586749472155, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
       propertyPath: m_Name
       value: BrittlePlat
@@ -7483,9 +9355,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c3738e5c1f6dc914ca2b8d9542cb47fc, type: 3}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Name
       value: SturdyPlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7626,9 +9530,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c3738e5c1f6dc914ca2b8d9542cb47fc, type: 3}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Name
       value: SturdyPlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7774,6 +9710,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c3738e5c1f6dc914ca2b8d9542cb47fc, type: 3}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Name
       value: SturdyPlat
@@ -7781,6 +9733,22 @@ PrefabInstance:
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7883,9 +9851,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c3738e5c1f6dc914ca2b8d9542cb47fc, type: 3}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Name
       value: SturdyPlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7980,8 +9980,8 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 0.8828125}
-    newSize: {x: 1, y: 1}
+    oldSize: {x: 0.96, y: 0.96}
+    newSize: {x: 0.96, y: 0.96}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -8084,12 +10084,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 2747690628134850419, guid: a9716c16a44a94eed9b5c90fbf4d9bdd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6fba8891549a8b144b7316bc819c5ef9, type: 3}
   m_Color: {r: 0, g: 1, b: 0.76858926, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.96, y: 0.96}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -8155,6 +10155,22 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1256529301}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 2f7f0615f5d71f54496fd30426c0c7ab, type: 3}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7203265586749472155, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
       propertyPath: m_Name
       value: BrittlePlat
@@ -8307,9 +10323,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c3738e5c1f6dc914ca2b8d9542cb47fc, type: 3}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Name
       value: SturdyPlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8372,9 +10420,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c3738e5c1f6dc914ca2b8d9542cb47fc, type: 3}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Name
       value: SturdyPlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8437,6 +10517,22 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1256529301}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 2f7f0615f5d71f54496fd30426c0c7ab, type: 3}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7203265586749472155, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
       propertyPath: m_Name
       value: BrittlePlat
@@ -8512,9 +10608,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c3738e5c1f6dc914ca2b8d9542cb47fc, type: 3}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Name
       value: SturdyPlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8577,6 +10705,22 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1256529301}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 2f7f0615f5d71f54496fd30426c0c7ab, type: 3}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7203265586749472155, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
       propertyPath: m_Name
       value: BrittlePlat
@@ -8650,6 +10794,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: BoosterPlat
       objectReference: {fileID: 0}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: bd41b17978abb994abbe37c0151e7acb, type: 3}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8715,6 +10875,22 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1256529301}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 2f7f0615f5d71f54496fd30426c0c7ab, type: 3}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7203265586749472155, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
       propertyPath: m_Name
       value: BrittlePlat
@@ -8789,6 +10965,22 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1256529301}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 2f7f0615f5d71f54496fd30426c0c7ab, type: 3}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7203265586749472155, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
       propertyPath: m_Name
       value: BrittlePlat
@@ -8869,6 +11061,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c3738e5c1f6dc914ca2b8d9542cb47fc, type: 3}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Name
       value: SturdyPlat
@@ -8876,6 +11084,22 @@ PrefabInstance:
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8942,6 +11166,22 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1256529301}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 2f7f0615f5d71f54496fd30426c0c7ab, type: 3}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7203265586749472155, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
       propertyPath: m_Name
       value: BrittlePlat
@@ -9039,8 +11279,8 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 0.8828125}
-    newSize: {x: 1, y: 1}
+    oldSize: {x: 0.96, y: 0.96}
+    newSize: {x: 0.96, y: 0.96}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -9143,12 +11383,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 2747690628134850419, guid: a9716c16a44a94eed9b5c90fbf4d9bdd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6fba8891549a8b144b7316bc819c5ef9, type: 3}
   m_Color: {r: 0, g: 1, b: 0.76858926, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.96, y: 0.96}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -9214,9 +11454,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c3738e5c1f6dc914ca2b8d9542cb47fc, type: 3}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Name
       value: SturdyPlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9285,6 +11557,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c3738e5c1f6dc914ca2b8d9542cb47fc, type: 3}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Name
       value: SturdyPlat
@@ -9292,6 +11580,22 @@ PrefabInstance:
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9353,6 +11657,22 @@ PrefabInstance:
     - target: {fileID: 5798850326734795210, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
       propertyPath: m_Name
       value: BoosterPlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: bd41b17978abb994abbe37c0151e7acb, type: 3}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9420,9 +11740,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c3738e5c1f6dc914ca2b8d9542cb47fc, type: 3}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Name
       value: SturdyPlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9489,6 +11841,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: BoosterPlat
       objectReference: {fileID: 0}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: bd41b17978abb994abbe37c0151e7acb, type: 3}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9550,6 +11918,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c3738e5c1f6dc914ca2b8d9542cb47fc, type: 3}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Name
       value: SturdyPlat
@@ -9557,6 +11941,22 @@ PrefabInstance:
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9615,9 +12015,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c3738e5c1f6dc914ca2b8d9542cb47fc, type: 3}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Name
       value: SturdyPlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9703,6 +12135,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: BoosterPlat
       objectReference: {fileID: 0}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: bd41b17978abb994abbe37c0151e7acb, type: 3}
+    - target: {fileID: 8224518370989397325, guid: eea6dafd821bbdc4e91edb9b1e443c6e, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9768,9 +12216,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c3738e5c1f6dc914ca2b8d9542cb47fc, type: 3}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Name
       value: SturdyPlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9934,7 +12414,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1958794431
@@ -10025,8 +12505,8 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 0.8828125}
-    newSize: {x: 1, y: 1}
+    oldSize: {x: 0.96, y: 0.96}
+    newSize: {x: 0.96, y: 0.96}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -10129,12 +12609,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 2747690628134850419, guid: a9716c16a44a94eed9b5c90fbf4d9bdd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6fba8891549a8b144b7316bc819c5ef9, type: 3}
   m_Color: {r: 0, g: 1, b: 0.76858926, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.96, y: 0.96}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -10206,9 +12686,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c3738e5c1f6dc914ca2b8d9542cb47fc, type: 3}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Name
       value: SturdyPlat
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10279,6 +12791,22 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1256529301}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 2f7f0615f5d71f54496fd30426c0c7ab, type: 3}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7203265586749472155, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
       propertyPath: m_Name
       value: BrittlePlat
@@ -10568,6 +13096,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c3738e5c1f6dc914ca2b8d9542cb47fc, type: 3}
+    - target: {fileID: 769788632487542503, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Name
       value: SturdyPlat
@@ -10575,6 +13119,22 @@ PrefabInstance:
     - target: {fileID: 4378520101017771931, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8563454866856798938, guid: e9a2e8c90a07f394e9a9bddee12d98f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10645,6 +13205,22 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1256529301}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Size.y
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 2f7f0615f5d71f54496fd30426c0c7ab, type: 3}
+    - target: {fileID: 3291987747635449569, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7203265586749472155, guid: 081cbc39e5e22284eb00b3912c32a906, type: 3}
       propertyPath: m_Name
       value: BrittlePlat
